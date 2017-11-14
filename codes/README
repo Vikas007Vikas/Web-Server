@@ -1,0 +1,5 @@
+1)For part-1 run python server.py and give input portnumber.
+2)For part-2 run python multithreadedserver.py and give input port number,PUT/POST requests are also handled.
+3)For part-3 run python client.py server_host server_port filename typeofrequest(GET or POST)
+4)For part-4,we made authentication page when user opens the page first time.If the user is not present,we add the user.If he is already present,we validate his details.
+5)Preventing DOS attack - If more than 10 requests come with timegap between consecutive less than 5 seconds,we block the ip address and after 1 minute the person can access the page again.
