@@ -1,0 +1,23 @@
+ #   f = open(filename,'rb')
+                          #   data=f.read()
+                          #   header_ok = "HTTP/1.1 200 OK"
+                          #   header_info={
+                        		# "Date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+                        		# "Content-Length": len(data),
+                        		# "Keep-Alive": "timeout=%d,max=%d" %(10,100),
+                        		# "Connection": "Keep-Alive",
+                        		# "Content-Type": "text/html"
+                          #   }
+                          #   st=""
+                          #   for i in header_info:
+                          #       st=st+i+':'+str(header_info[i])+'\r\n'
+
+                          #   print st
+                          #   conn.send("%s\r\n%s\r\n\r\n" %(header_ok,st))
+                          #   f.close()
+                          #   f1 = open(filename,'rb')
+                          #   l=f1.read(1024)
+                          #   while l:
+                          #       conn.send(l)
+                          #       l=f1.read(1024)
+                          #   f1.close()
